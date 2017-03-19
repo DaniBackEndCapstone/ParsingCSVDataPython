@@ -17,6 +17,23 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
-        print(row)
+        state = row[0]
+        race_white = row[2]
+        race_black = row[3]
+        race_hispanic = row[4]
+        race_american_indian_alaska_native = row[5]
+        race_asian = row[6]
+        race_native_hawaiian_pacific_islander = row[7]
+        race_two_or_more = row[8]
+        race_other = row[9]
+        race_unknown = row[10]
 
-# def get_specific_prisoners_race_data_for_DB():
+        print(state, race_white)
+        print(state, race_black)
+        print(state, race_hispanic)
+        print(state, race_american_indian_alaska_native)
+        print(state, race_asian)
+        print(state, race_native_hawaiian_pacific_islander)
+        print(state, race_two_or_more)
+        print(state, race_other)
+        print(state, race_unknown)

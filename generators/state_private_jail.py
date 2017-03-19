@@ -17,6 +17,9 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
-        print(row)
+        state = row[1]
+        total_private_2015 = row[3]
+        total_local_jail_2015 = row[9]
+        print(state, total_private_2015)
+        print(state, total_local_jail_2015)
 
-# def get_specific_state_private_jail_for_DB():

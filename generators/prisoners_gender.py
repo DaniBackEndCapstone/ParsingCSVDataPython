@@ -17,7 +17,13 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
-
-
-        print(row)
+        state = row[1]
+        total_female_supervised = row[4]
+        total_female_incarcerated = row[9]
+        total_male_supervised =  row[3]
+        total_male_incarcerated = row[8]
+        print(state, total_female_supervised)
+        print(state, total_female_incarcerated)
+        print(state, total_male_supervised)
+        print(state, total_male_incarcerated)
 
