@@ -17,6 +17,7 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
+
+
         print(row)
 
-# def get_specific_gender_data_for_DB():

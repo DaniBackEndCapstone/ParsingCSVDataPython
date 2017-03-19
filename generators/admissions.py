@@ -31,7 +31,8 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
-        print(row)
+        print(row[1], row[2])
+
 
 
 

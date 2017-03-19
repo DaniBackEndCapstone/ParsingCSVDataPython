@@ -17,6 +17,9 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
-        print(row)
 
-# def get_specific_noncitizen_data_for_DB():
+        state = row[1]
+        total_noncitizen_prisoners = row[3]
+        #will need a for to add total state and federal together for allover total
+        print(state, total_noncitizen_prisoners)
+
