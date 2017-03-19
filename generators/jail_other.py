@@ -17,6 +17,6 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
-        print(row)
-
-# def get_specific_noncitizen_data_for_DB():
+        type_of_jail = row[0]
+        total_in_other_2015 = row[5]
+        print(type_of_jail, total_in_other_2015)
