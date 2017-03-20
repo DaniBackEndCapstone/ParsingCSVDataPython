@@ -28,6 +28,9 @@ if __name__ == '__main__':
         race_other = row[9]
         race_unknown = row[10]
 
+# wrap this in object.create for whatever model I want
+# model.objects.create()
+
         print(state, race_white)
         print(state, race_black)
         print(state, race_hispanic)
